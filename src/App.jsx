@@ -1,20 +1,21 @@
 import React from 'react'
 
 //Components
-import Header from './components/header/header'
-import Footer from './components/footer/footer'
-import Nav from './components/nav/nav'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav'
 
 //Pages
-import About from './components/about/about'
-import Contacts from './components/contacts/contact'
-import Experience from './components/experience/experience'
-import Portfolio from './components/portfolio/portfolio'
+import About from './pages/About/About'
+import Contacts from './pages/Contacts/Contacts'
 function App() {
   return (
     <>
-
-
+    <Nav/>
+    <Header/>
+    <Contacts/>
+    <About/>
+    <Footer/>
     </>
   )
 }

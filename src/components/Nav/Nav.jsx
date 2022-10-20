@@ -2,9 +2,9 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>
-      
-    </div>
+    <section id="Nav">
+      Nav
+    </section>
   )
 }
 
