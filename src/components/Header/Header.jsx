@@ -1,6 +1,7 @@
 import React from 'react'
 import Background from './Background.jsx'
 import Headersocial from './headersocial.jsx'
+import ME from '../../assets/StockMale.png'
 const Header = () => {
   return (
     <section id="Header">
@@ -8,6 +9,9 @@ const Header = () => {
       <h1>Benjiman Dinal</h1>
     <div className= 'container Header_container'> 
     <Headersocial/>
+    <div className="me">
+            <img src={ME} alt="me" />
+    </div>
 
 
 

@@ -125,6 +125,11 @@ img{
     section>h2{
         margin-top:6rem;
     }
+    section{
+        margin-top:2rem;
+        margin-left:6rem;
+        margin-bottom: 40rem;
+    }
 }
 
 /*Small sized Media Devices*/
@@ -139,7 +144,7 @@ img{
     
 section{
     margin-top:2rem;
-    margin-left:10%;
+    margin-left:6rem;
     margin-bottom: 40rem;
 }
 }

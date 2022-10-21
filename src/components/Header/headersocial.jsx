@@ -6,9 +6,9 @@ import "./Header.scss"
 const Headersocial = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank"><FaGithub/></a>
-        <a href="https://dribbble.com" target="_blank"><BsDribbble/></a>
+        <a href="https://linkedin.com" target="_blank"><BsLinkedin className="icon"/></a>
+        <a href="https://github.com" target="_blank"><FaGithub className="icon"/></a>
+        <a href="https://dribbble.com" target="_blank"><BsDribbble className="icon"/></a>
     </div>
 
   )
