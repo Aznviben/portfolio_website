@@ -5,19 +5,19 @@ nav{
     padding: 0.5rem .7rem;
     z-index: 2;
     position: fixed;
-    top:2rem;
+  
     display: flex;
     flex-direction: column;
     gap:1rem;
     border-radius: 1rem;
     backdrop-filter:blur(15px);
-    left:2%
+    left:2%;
 
 }
 
 nav a {
     background:transparent;
-    padding: 1rem;
+    padding: 1.0rem;
     border-radius: 50%;
     display:flex;
     color: var(--color-light);
@@ -31,5 +31,52 @@ nav a:hover{
 
 nav a.active{
     background: var(--color-bg);
+
+}
+
+/*Medium sized Media Devices*/
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+
+    }
+    section{
+        margin-top:2rem;
+        margin-left: 6rem;
+        margin-bottom: 40rem;
+    }
+}
+
+/*Small sized Media Devices*/
+@media screen and (max-width: 600px){
+    .container{
+        width: var(--container-width-sm);
+
+    }
+    nav{
+        background: rgba(0,0,0,0.3);
+        width: max-content;
+        display: block;
+        padding: 0.5rem .7rem;
+        z-index: 2;
+        position: fixed;
+      
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        border-radius: 1rem;
+        backdrop-filter:blur(15px);
+        left:2%;
+    
+    }
+    
+    nav a {
+        background:transparent;
+        padding: 1.0rem;
+        border-radius: 50%;
+        display:flex;
+        color: var(--color-light);
+        font-size:1.0rem;
+    }
 
 }

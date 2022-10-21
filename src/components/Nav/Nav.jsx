@@ -4,16 +4,17 @@ import {AiFillHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {MdRateReview} from 'react-icons/md'
 import{useState} from 'react'
+
 const Nav = () => {
   const [activeNav,setActiveNav]= useState('#'); 
   return (
-    <section id="Nav">
+    <div className = "container nav_container" >
       <nav>
         <a href = "#"onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiFillHome/></a>
-        <a href = "#About" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>        
-        <a href = "#Contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><MdRateReview/></a>
+        <a href = "#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>        
+        <a href = "#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><MdRateReview/></a>
       </nav>
-    </section>
+    </div>
   )
 }
 
