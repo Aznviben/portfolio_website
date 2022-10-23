@@ -24,6 +24,12 @@
     opacity: 0.8;
 }
 
+.Header h1, h3{
+
+    
+
+}
+
 /*Medium sized Media Devices*/
 @media screen and (max-width: 1024px){
     .Header{
@@ -36,7 +42,6 @@
 @media screen and (max-width: 600px){
     .Header{
         height: 100vh;
-        margin-left: 7rem;
     }
     
 

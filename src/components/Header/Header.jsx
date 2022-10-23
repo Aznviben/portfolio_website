@@ -7,14 +7,11 @@ const Header = () => {
     <section id="Header">
       <h3>Hi im,</h3>
       <h1>Benjiman Dinal</h1>
+     
+
     <div className= 'container Header_container'> 
     <Headersocial/>
-    <div className="me">
-            <img src={ME} alt="me" />
-    </div>
-
-
-
+    <Background/>
     </div>
 
     </section>
