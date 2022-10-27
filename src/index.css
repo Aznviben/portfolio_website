@@ -36,7 +36,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    
+    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
 
@@ -47,7 +47,6 @@ body{
 
 .container{
     width: var(--container-width-lg);
-    margin:0 auto;
 }
 
 h1{
@@ -56,8 +55,7 @@ h1{
 
 section{
     margin-top:2rem;
-    margin-left:9%;
-    margin-bottom: 40rem;
+    margin-left: 10rem;
 }
 
 section > h2,
