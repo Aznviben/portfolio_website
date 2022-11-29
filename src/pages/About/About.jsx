@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.scss'
+import ME from '../../assets/Testing3.jpg'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {AiFillFileText} from 'react-icons/ai'
@@ -11,6 +12,7 @@ const About = () => {
           <div className="container about__container">
             <div className="about__me">
               <div className="about__me-image">
+                  <img src={ME} alt="About Image" />
               </div>
             </div>
               
