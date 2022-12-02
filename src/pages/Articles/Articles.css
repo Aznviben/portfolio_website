@@ -1,0 +1,22 @@
+.block {
+    background:var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding:2rem;
+    text-align: center;
+  }
+  
+  .container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+  }
+  
+  .block img {
+    height: auto;
+    border-radius:2rem ;
+    overflow: hidden;
+    height:25rem;
+    width:25rem;
+    padding:.5rem;
+  }
