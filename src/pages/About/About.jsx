@@ -35,7 +35,10 @@ const About = () => {
               </article>
             </div>
             <p>
- 
+            Meet Benjamin, a unique individual who has a passion for both computer science and art.
+            He is fascinated by the way technology and creativity can come together to create something truly amazing.
+            He spends countless hours honing his skills in both areas, constantly pushing the boundaries of what is possible.
+            Whether it's developing a new app, creating a digital masterpiece, or finding new ways to combine the two, Benjamin is always eager to take on the challenge.  
             </p>
             <a href='#contact' className='btn btn-primary'>Lets Talk</a>
 
